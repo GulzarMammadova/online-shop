@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+* {
+  list-style-type: none;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Cabin", sans-serif;
+  font-style: normal;
+  background: #E5E5E5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header .nav-menu {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 8px;
+  gap: 10px;
+  width: 72px;
+  left: 16px;
+  top: 1.56%;
+  bottom: 1.56%;
+  background: #fff;
+  border-radius: 8px;
+  position: fixed;
+}
+.header .nav-menu .nav-menu-list {
+  padding: 0px;
+  margin: 15px 0px;
+}
+.header .nav-menu .nav-menu-list .logo {
+  margin-bottom: 70%;
+}
+.header .nav-menu .nav-menu-list li {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.header .nav-menu .nav-menu-list li:hover {
+  background: #1A1F16;
+  border-radius: 10px;
+}
+.header .nav-menu .log {
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.bag {
+  position: absolute;
+  height: 300px;
+  left: 75%;
+  top: 51px;
+  border-left: 4px solid rgba(26, 31, 22, 0.5019607843);
+  padding: 30px;
+  margin-right: 41px;
+}
+.bag button {
+  padding: 8px 24px;
+  gap: 8px;
+  width: 159px;
+  height: 40px;
+  background: #1A1F16;
+  border-radius: 14px;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home {
+  display: flex;
+  justify-content: center;
+  width: 820px;
+  margin-left: 122px;
+  margin-top: 24px;
 }
+
+.search {
+  display: flex;
+  justify-content: center;
+  width: 820px;
+  margin-left: 122px;
+  margin-top: 24px;
+}
+.search .search-bar {
+  display: flex;
+  flex-direction: column;
+}
+.search .search-bar label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #60695C;
+  margin-bottom: 8px;
+  padding-left: 5px;
+}
+.search .search-bar input {
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  width: 507px;
+  height: 56px;
+  background: #FFF;
+  box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.1490196078);
+  border: none;
+  border-radius: 13px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.search .search-bar input [type=search] {
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(26, 31, 22, 0.5);
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}/*# sourceMappingURL=App.css.map */
