@@ -1,9 +1,7 @@
-import '../App.css';
-import { SearchBar } from './SearchBar';
-import { Product} from "../pages/products list/ProductDescription"
+import '../../App.css';
+import { Product } from './ProductDescription';
 
-
-export function Home() {
+export function ProductsList() {
     const items = [
         {
             id: 0,
@@ -13,7 +11,7 @@ export function Home() {
             count: 1,
             rating: "4.5",
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-            img:  "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple-Watch.svg"
+            // img:  "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple-Watch.svg"
         },
         {
             id: 1,
@@ -23,7 +21,7 @@ export function Home() {
             rating: "4.5",
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
             count: 1,
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/qulaqciq.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/qulaqciq.svg"
         },
         {
             id: 2,
@@ -33,7 +31,7 @@ export function Home() {
             count: 1,
             rating: "4.5",
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple11-Black.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple11-Black.svg"
         },
         {
             id: 3,
@@ -43,7 +41,7 @@ export function Home() {
             count: 1,
             rating: "4.5",
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-Green.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-Green.svg"
         },
         {
             id: 5,
@@ -53,7 +51,7 @@ export function Home() {
             count: 1,
             rating: "4.5",
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-red.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-red.svg"
         },
         {
             id: 6,
@@ -63,7 +61,7 @@ export function Home() {
             count: 1,
             rating: "4.5",
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-white.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-white.svg"
         },
         {
             id: 7,
@@ -73,7 +71,7 @@ export function Home() {
             count: 1,
             rating: "4.5",
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-pink.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-pink.svg"
         },
         {
             id: 8,
@@ -82,8 +80,9 @@ export function Home() {
             price: " 729.99",
             count: 1,
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+
             rang: "4.5",
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-blue.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-blue.svg"
         },
         {
             id: 10,
@@ -94,7 +93,7 @@ export function Home() {
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
 
             rang: "4.5",
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-silver.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-silver.svg"
         },
         {
             id: 11,
@@ -105,7 +104,7 @@ export function Home() {
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
 
             rang: "4.5",
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-grey.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-grey.svg"
         },
         {
             id: 12,
@@ -116,7 +115,7 @@ export function Home() {
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
 
             cot: 1,
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/samsungNote21.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/samsungNote21.svg"
         },
         {
             id: 13,
@@ -127,67 +126,57 @@ export function Home() {
             info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
 
             cot: 1,
-            img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/samsungS21%2B.svg"
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/samsungS21%2B.svg"
         },
-        // {
-        //     id: 14,
-        //     title: "Dell XPS 13",
-        //     model: "White",
-        //     price: " 1799.99",
-        //     rating: "4.5",
-        //     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+        {
+            id: 14,
+            title: "Dell XPS 13",
+            model: "White",
+            price: " 1799.99",
+            rating: "4.5",
+            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
 
-        //     cot: 1,
-        //     img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps13.svg"
-        // },
-        // {
-        //     id: 15,
-        //     title: "Dell XPS 15",
-        //     model: "Light Grey",
-        //     price: " 1899.99",
-        //     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+            cot: 1,
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps13.svg"
+        },
+        {
+            id: 9,
+            title: "Dell XPS 15 2-in-1",
+            model: "Midnight Gray",
+            price: " 3199.99",
+            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+            count: 1,
+            rang: "4.5",
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellxps15-1.svg"
+        },
+        {
+            id: 15,
+            title: "Dell XPS 15",
+            model: "Light Grey",
+            price: " 1899.99",
+            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
 
-        //     rating: "4.5",
-        //     cot: 1,
-        //     img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps15-2.svg"
-        // },
-        // {
-        //     id: 4,
-        //     title: "Macbook Pro 16",
-        //     model: "Silver - M1 Pro",
-        //     price: "3249.99",
-        //     count: 1,
-        //     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-        //     rang: "4.5",
-        //     img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/macbook-16-pro.svg"
-        // },
-        // {
-        //     id: 9,
-        //     title: "Dell XPS 15 2-in-1",
-        //     model: "Midnight Gray",
-        //     price: " 3199.99",
-        //     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-
-        //     count: 1,
-        //     rang: "4.5",
-        //     img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellxps15-1.svg"
-        // },
+            rating: "4.5",
+            cot: 1,
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps15-2.svg"
+        },
+        {
+            id: 4,
+            title: "Macbook Pro 16",
+            model: "Silver - M1 Pro",
+            price: "3249.99",
+            count: 1,
+            info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+            rang: "4.5",
+            // img: "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/macbook-16-pro.svg"
+        },
+        
     ]
     return (
-        <>
-        <SearchBar/>
-            {/* <SearchBar onSubmit={}/> */}
-            <div className='home-product-container'>
-            {/* <Product/> */}
-            <div className="productList-container">
+        <div className="productList-container">
           {items.map((post, index) => (
             <Product key={index} index={index} post={post} />
           ))}
         </div>
-            </div>
-
-        </>
-    );
+      )
 }
-
-
